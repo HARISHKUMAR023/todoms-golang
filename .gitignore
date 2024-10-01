@@ -1,0 +1,37 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the `go` tool's build process
+/build/
+bin/
+dist/
+
+# Dependency directories (contains vendor packages)
+vendor/
+
+# Go modules (for projects using Go modules)
+go.sum
+go.work
+
+# Logs and debugging output
+*.log
+
+# Config files (if you store credentials in a local config)
+config/*.env
+.env
+
+# IDE/editor-specific settings and files
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-workspace
+*.sublime-project
+
+# Operating system generated files
+.DS_Store
+Thumbs.db
